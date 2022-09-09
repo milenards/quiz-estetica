@@ -1,0 +1,11 @@
+.pergunta1{
+    background-color: #EA9D71;
+    border-radius: 8px;
+}
+.resp1,.resp2,.resp3
+{
+    background-color: #0D6374;
+    border-radius: 8px;
+    color: white;
+    
+}
