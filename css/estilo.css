@@ -1,11 +1,21 @@
 .pergunta1{
     background-color: #EA9D71;
-    border-radius: 8px;
+    border-radius: 50px;
+    font-size:larger;
+     
 }
+.a1,.b1,.c1{
+    background-color: #00AB93;
+    border-radius: 50px;
+    
+}
+
+
+
 .resp1,.resp2,.resp3
 {
     background-color: #0D6374;
-    border-radius: 8px;
+    border-radius: 50px;
     color: white;
     
 }
