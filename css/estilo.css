@@ -1,21 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #FDEBE0;
+}
+.cabecalho{
+    text-align: center;
+    padding: 15px;
+}
+
 .pergunta1{
     background-color: #EA9D71;
+    text-align: center;
     border-radius: 50px;
-    font-size:larger;
-     
-}
-.a1,.b1,.c1{
-    background-color: #00AB93;
-    border-radius: 50px;
-    
+    font-size:20px;
+    padding: 5px;    
 }
 
-
-
-.resp1,.resp2,.resp3
+.respostas
 {
+    text-align: center;    
+}
+
+.respostas button{
+    background: none;
     background-color: #0D6374;
-    border-radius: 50px;
+    border: 0;  
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
     color: white;
-    
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding: 5px;
+    width: 90%;
+}
+.corpo{
+    text-align: center;
+}
+.botao{
+    background-color: #0D6374;
+    color: white;
+    font-family: 'Bebas Neue';
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
 }
