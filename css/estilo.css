@@ -14,6 +14,7 @@ body{
     border-radius: 50px;
     font-size:20px;
     padding: 5px;    
+    margin-top: 8%;
 }
 
 .respostas
@@ -25,8 +26,7 @@ body{
     background: none;
     background-color: #0D6374;
     border: 0;  
-    flex-direction: column;
-    margin-top: 20px;
+    margin-top: 5%;
     border-radius: 10px;
     color: white;
     font-family: 'Montserrat';
@@ -37,6 +37,27 @@ body{
 .corpo{
     text-align: center;
 }
+
+.proximo{
+    background: none;
+    background-color: #00AB93;
+    border: 0;  
+    margin-top: 8%;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Bebas neue';
+    font-size: 25px;
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.apresentacao{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .botao{
     background-color: #0D6374;
     color: white;
@@ -45,4 +66,5 @@ body{
     text-decoration: none;
     font-size: 25px;
     padding: 5px;
+    
 }
